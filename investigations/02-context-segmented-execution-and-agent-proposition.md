@@ -1,4 +1,4 @@
-# Investigation 02 — Context-segmented execution and the agent proposition
+# Investigation 02 — Agentic segmentation strategy and ChatGPT session emulation
 
 ## Status and relationship to the current traversal
 
@@ -7,6 +7,34 @@ This record captures a new operational proposition arising from continued work o
 It does **not** reopen the stopped early-chronology traversal in Pass 1 / Checkpoint 01. That traversal stopped because its proposed next hop failed adequacy. This is a distinct investigative movement prompted by a later operational concern: repeated context loading during single-file work.
 
 The arrangement below is a candidate implementation and an object for observation, not an established invariant or a completed method specification.
+
+## Reference strategy and separate ChatGPT emulation
+
+A distinction established during this investigation changes how the work below must be read.
+
+The agentic segmentation strategy described here is the **existing harness-oriented proposition** under investigation. Its definitions and principles are the reference. The current ChatGPT work is a separate experimental enactment of those principles through independent chat-interface sessions, using the project repository as the shared durable surface and a single GitHub access definition.
+
+The ChatGPT enactment is not a replacement for, merger with, or proposed successor to the existing harness strategy. Nor is it a claim that the chat interface reproduces the harness faithfully. It is an experiment in whether the strategy's principles can be enacted in this different execution environment, what adaptations the environment forces, and what those adaptations reveal about the strategy.
+
+The intended experimental arrangement is deliberately modest:
+
+- a clean orchestrator chat enters through a project-held orchestrator prompt and repository ingress;
+- it reconstructs the current project position and prepares a bounded, durable job in the repository;
+- a separate clean worker chat enters through a short worker ingress, uses the shared GitHub access definition, discovers its assigned job and performs only that operation;
+- the worker returns a reconstructable handoff and, where the job requires code changes and the available permissions support it, publishes the changes for integration;
+- a separate orchestrator session integrates and adjudicates the result against the project constraints.
+
+The exact prompts, job discovery mechanism and publication path remain experimental details to be tested, not architecture already proven by their description. The repository is the shared continuity and evidence surface; the chat sessions do not inherit one another's conversational context.
+
+Pass identifiers may be recorded in repository jobs and handoffs as **accounting and provenance**: they make it possible to identify which experimental traversal produced a result and to compare successive traversals. This is not an importation of the Android translation project's Pass 1/2/3 methodology, and it does not merge the experimental accounting with the translation passes or with the separate OE investigation traversal.
+
+The experiment asks whether the arrangement improves bounded-session context consumption while preserving reconstructability and work quality. Relevant observations include per-session context use, total context and coordination cost across all sessions, quality of orchestrator reconstruction, whether a worker can act from the job without conversation history, boundary discipline, handoff sufficiency, integration effort and continuity across successive sessions. Reduced context in one session is not evidence of overall efficiency if the cost has merely moved to another session. No quantitative improvement should be claimed without measurements.
+
+### Evidence boundary of the current trial
+
+The first cold-start exercise reconstructed the orchestrator position from repository ingress in a clean chat. It then prepared a worker task prompt manually in the originating conversation. A separate worker chat executed that prompt and returned a handoff identifying one source/target discrepancy.
+
+This establishes some useful evidence about clean-session reconstruction and bounded worker execution. It does **not** yet test the full intended emulation: the clean orchestrator did not itself generate and persist the job; the worker did not enter through a project-held one-line ingress and independently discover/claim that job; and the complete job-to-integration cycle was not exercised as a repository-mediated sequence. The trial therefore does not yet validate the proposed session arrangement or demonstrate context savings.
 
 ## Prompting observation
 
