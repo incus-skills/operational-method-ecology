@@ -17,6 +17,7 @@ These are currently available ways into the ecology, not a complete or mandatory
 - **Operational continuation:** [current investigative position](investigation/current-position.md).
 - **Epistemic reference:** [OE documentation and ingress definitions](definitions/documentation-and-ingress.md).
 - **Investigation:** [entry and first reconstruction](investigations/01-entry-and-first-reconstruction.md).
+- **Further investigative movement:** [context-segmented execution and the harness-agnostic agent proposition](investigations/02-context-segmented-execution-and-agent-proposition.md).
 - **Initial project provenance:** [initial translation-project intent](traces/initial-project-intent.md).
 - **OE-establishment trace:** [structural recursion during OE establishment](traces/structural-recursion.md).
 
