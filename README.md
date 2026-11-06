@@ -17,21 +17,18 @@ These are currently available ways into the ecology, not a complete or mandatory
 - **Operational continuation:** [current investigative position](investigation/current-position.md).
 - **Epistemic reference:** [OE documentation and ingress definitions](definitions/documentation-and-ingress.md).
 - **Investigation:** [entry and first reconstruction](investigations/01-entry-and-first-reconstruction.md).
-- **Preserved investigative trace:** [structural recursion during OE establishment](traces/structural-recursion.md).
+- **Initial project provenance:** [initial translation-project intent](traces/initial-project-intent.md).
+- **OE-establishment trace:** [structural recursion during OE establishment](traces/structural-recursion.md).
 
 The current-position record supports continuation from the active traversal. The definitions record is an independent epistemic entry point. The investigation and trace records provide provenance and developmental access.
 
 ## Governing distinctions
-
-The following control distinctions are established for this investigation:
 
 - **Sufficiency** triggers re-entry when enough has been preserved to support another pass.
 - **Adequacy** determines whether the proposed next hop within a traversal is supportable; failure stops that traversal.
 - **Completeness** is adjudicated from an external observer position in relation to the external anchor: whether the investigation has fulfilled its purpose.
 
 These criteria are not interchangeable. Completeness is not required to trigger re-entry.
-
-The [definitions record](definitions/documentation-and-ingress.md) preserves the existing OE account of documentation and ingress and distinguishes that source reference from applications made in this investigation.
 
 ## Primary terrain
 
