@@ -5,77 +5,82 @@
 - OE: Operational Method Ecology.
 - Target: the procedure used during the Android Mainline Port translation project.
 - Traversal: **Pass 1 — reconstruction of the procedure's emergence and operation**.
-- Position: initial evidence comparison; no complete developmental chronology has yet been established.
+- Position: initial workflow declaration, early project intent and Pass 1/2/3 records have been compared.
 - Completeness: **not adjudicated**.
 
 ## External anchor
 
-The investigation's external anchor is its stated purpose: reconstruct the procedure that was actually used in the translation project, from evidence of its development and operation.
+Reconstruct the procedure that was actually used in the translation project, from evidence of its development and operation.
 
-The investigation must not substitute:
-- a polished method specification for the historical procedure;
-- the translation project's declared workflow for evidence of everything that was enacted;
-- a current repository structure for the ecology it is intended to preserve;
-- apparent recurrence in one trace for an established general pattern;
-- transferability as an assumption rather than a question.
-
-The external anchor is outside any particular traversal and is not redefined merely because a traversal changes direction. Its relation to the external observer position governs completeness adjudication.
+Do not substitute a polished method specification for the historical procedure, the declared workflow for everything enacted, the current repository structure for the ecology, or transferability as an assumption.
 
 ## Epistemic anchor
 
-[Documentation and ingress in an OE](../definitions/documentation-and-ingress.md) preserves the existing OE definition supplied as a reference. It is available as an epistemic anchor across sessions.
-
-It establishes documentation as a preservation surface of traces and ingress as position-specific access to the ecology. It also preserves the distinction between trace, collection, observation of collection, candidate locus and ecological pattern.
+[Documentation and ingress in an OE](../definitions/documentation-and-ingress.md) preserves the existing OE definition and is available across sessions.
 
 ## Observer position
 
 The present observer is investigating the translation project's procedure, not continuing the translation review itself.
 
-The observer must distinguish:
-- the translation project's own stated process;
-- actions and movements evidenced by project records;
-- retrospective reconstructions of earlier work;
-- interpretations made in this new investigation;
+Keep distinct:
+- the project's declared process;
+- actions evidenced by project records;
+- retrospective reconstructions;
+- conversation-summary-derived provenance;
+- interpretations made in this OE;
 - unresolved historical gaps.
 
-The current Pass 3 position in the translation project is evidence of its present operational state, not the starting point or historical origin of the procedure.
+The translation project's current Pass 3 position is not the historical starting point of the procedure.
 
-## Evidence examined so far
+## Evidence and records examined
 
-1. [translation/README.md](https://github.com/incus-skills/android-mainline-port/blob/translation/english-reconstruction/translation/README.md) — purpose, working principles and proposed phases for the English reconstruction.
-2. [translation/GLOSSARY.md](https://github.com/incus-skills/android-mainline-port/blob/translation/english-reconstruction/translation/GLOSSARY.md) — controlled terminology practice.
-3. [translation/INVENTORY.md](https://github.com/incus-skills/android-mainline-port/blob/translation/english-reconstruction/translation/INVENTORY.md) — source baseline, inventory, status model and retrospective progress record.
-4. [reconstruction/zh/README.md](https://github.com/incus-skills/android-mainline-port/blob/translation/english-reconstruction/reconstruction/zh/README.md) — purpose, authority boundaries and retrospective nature of descriptive reconstruction records.
-5. [Pass 1 / Checkpoint 01](https://github.com/incus-skills/android-mainline-port/blob/translation/english-reconstruction/reconstruction/zh/continuation/checkpoints/pass-1-checkpoint-01.md) — retrospective initial observer position, scope, evidence boundaries, bounded reconstruction sufficiency and cold-start success criteria.
-6. [Pass 3 / Checkpoint 01](https://github.com/incus-skills/android-mainline-port/blob/translation/english-reconstruction/reconstruction/zh/continuation/checkpoints/pass-3-checkpoint-01.md) — later technical/semantic review dimensions, method and re-entry instructions.
-7. [Pass 3 / Checkpoint 16](https://github.com/incus-skills/android-mainline-port/blob/translation/english-reconstruction/reconstruction/zh/continuation/checkpoints/pass-3-checkpoint-16.md) and [current position](https://github.com/incus-skills/android-mainline-port/blob/translation/english-reconstruction/reconstruction/zh/continuation/current-position.md) — latest documented position and continuation route.
+- Translation README and glossary.
+- Translation inventory and its baseline/progress distinction.
+- Chinese reconstruction README and its retrospective/authority boundaries.
+- Pass 1 Checkpoints 01–12 and Pass 1 scope reconciliation.
+- Pass 2 Checkpoint 01 and bounded scope closure.
+- Pass 3 Checkpoint 01, Checkpoint 16 and current-position.
+- Initial translation-branch commits c7438efe (workflow declaration, 2026-11-05 21:52:05 UTC) and ed9aaab9 (glossary, 21:52:07 UTC).
+- Retrospective conversation-search summary of the initial user request and early constraints; original full conversation not yet recovered.
 
-## Initial observations
+See [Investigation 01](../investigations/01-entry-and-first-reconstruction.md) and the [initial project-intent trace](../traces/initial-project-intent.md).
 
-- The translation README describes a proposed multi-phase workflow: establish baseline, reconstruct structure, build a controlled glossary, translate in dependency order, perform technical/semantic review, and validate the whole skill.
-- The inventory records the source baseline and later progress. It distinguishes inventory from translation, technical audit and redesign.
-- Pass 1 / Checkpoint 01 explicitly distinguishes skill-level reconstruction from methodological learning. It places the observer outside the role of domain expert without dismissing domain expertise, and excludes technical correctness validation from that traversal.
-- The checkpoint distinguishes Pass number, document position and session checkpoint. It also records why a next document was selected from source-supported cross-document relationships.
-- The reconstruction README explicitly says its records are descriptive reconstructions, not author statements; it also warns that records may be retrospective and that creation time must not be mistaken for original observation time.
-- Later work has distinct traversals: Pass 2 reviews the repository-facing README; Pass 3 reviews the English operational translation against the Chinese sources. Pass 3's review dimensions and scope are not identical to Pass 1's reconstruction purpose.
-- The translation project's current-position record uses the active position, a checkpoint, phase/glossary references, a next document and explicit scope boundaries to support continuation.
+## Reconstructed position so far
 
-These are preliminary findings from the records examined, not a complete account of how the procedure first emerged.
+The project began as structured English translation intended to build understanding of the skill's operating model. The skills-development project was an informing reference, not an architecture to impose. An alternate observer position was requested, with domain concerns remaining legitimate and skill-level reconstruction distinguished from methodological learning.
 
-## Adequacy of the next hop
+The first repository commit declared a six-phase workflow. The second added a controlled glossary. Later records show Phase 0 baseline/inventory, structural reconstruction, dependency-ordered translation, separate reconstruction and translation-review records, and multiple bounded passes.
 
-The next hop is to reconstruct the developmental sequence across the translation project's own records, beginning with the initial inventory and Pass 1 checkpoints, then examining how later passes and re-entry records changed the procedure.
+Pass 1 reconstructed the operational core's structure and relationships. Pass 2 changed observer position to the repository-facing reader surface. Pass 3 changed it again to source-based technical/semantic translation review, explicitly excluding external technical validation.
 
-This is adequate because the relevant source records are available and the question is bounded. It does not require deciding the final form of the method or proving its universality.
+Within Pass 1, checkpoints preserved source provenance, completed and next documents, reasons for the next hop, explicit versus observer-reconstructed relationships, unresolved issues, evidence boundaries and re-entry sequence. Checkpoint 07 records bounded sufficiency for moving onward despite unresolved external questions. Checkpoint 12 required inventory-based scope reconciliation before Pass 1 closure.
 
-## Re-entry and stopping criteria
+These are findings about the surviving records. The exact emergence chronology of several mechanisms remains unresolved.
 
-- Sufficiency triggers another pass when enough of the current traversal has been preserved to reconstruct its position and continue.
-- Adequacy is assessed for each proposed next hop. If the next hop is inadequate, this traversal stops rather than recursively elaborating without a supportable movement.
-- Completeness is reserved for external adjudication against the external anchor. It is not claimed by this record.
+## Control criteria
+
+- **Sufficiency** triggers re-entry when enough is preserved to support another pass.
+- **Adequacy** determines whether the proposed next hop is supportable; failure stops that traversal.
+- **Completeness** is adjudicated from an external observer position in relation to the external anchor.
+
+They are distinct criteria. Completeness is not required for re-entry.
+
+## Adequacy of next hop
+
+The next hop is to reconstruct the emergence chronology between the initial project request, workflow declaration, Phase 0 acceptance, actual inventory, and the first Pass 1 checkpoint. The exact timing and causes of the separate reconstruction and review surfaces also remain to be traced.
+
+This hop is adequate because there is a bounded set of source records and identifiable gaps. The investigation need not resolve those gaps by inference.
 
 ## Next action
 
-Examine the Pass 1 checkpoint sequence as a developmental trace. Preserve the difference between contemporaneous evidence and retrospective reconstruction, and compare the procedure declared in the translation README with the movements evidenced by the checkpoints.
+Continue recovering the earliest project conversation and repository chronology. Distinguish contemporaneous records, commit metadata, retrospective checkpoints and conversation-summary-derived evidence. Do not yet declare a general method, universal invariants or final repository architecture.
 
-Do not yet produce a general method specification or infer that all observed mechanisms are invariant across terrains.
+## Re-entry sequence
+
+1. Read this record.
+2. Read [the documentation and ingress epistemic anchor](../definitions/documentation-and-ingress.md).
+3. Read [Investigation 01](../investigations/01-entry-and-first-reconstruction.md).
+4. Read [the initial project-intent trace](../traces/initial-project-intent.md).
+5. Enter the Android translation branch records cited in those records, beginning with the initial workflow commit and Phase 0 inventory.
+
+The external completeness judgement has not been made.
