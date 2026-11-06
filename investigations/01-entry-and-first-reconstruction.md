@@ -1,0 +1,92 @@
+# Investigation 01 — Entry and first reconstruction
+
+## Question
+
+What procedure is evidenced by the translation project's initial workflow declaration and its first retrospective reconstruction checkpoint, and what must remain unresolved until the developmental record is examined further?
+
+## Evidence and provenance
+
+### Translation workflow declaration
+
+The translation README describes a proposed workflow with six phases:
+
+1. Establish the source baseline and inventory.
+2. Reconstruct the skill's structure.
+3. Build a controlled glossary.
+4. Translate in dependency order.
+5. Perform technical and semantic review.
+6. Validate the whole skill.
+
+It also declares working principles: source before interpretation, understand before rewriting, preserve operational force, keep technical tokens exact, trace translations, separate translation from correction, preserve provenance/licence notices, and validate the skill as a system.
+
+The document calls these phases proposed. It is evidence of the workflow as declared in the translation project, not proof that every phase was followed in that order or that the workflow captures all operational movements.
+
+### Inventory
+
+The inventory explicitly characterises itself as a baseline inventory, not a translation, technical audit or redesign. It records repository identity, source revision, file coverage, existing English material and an initial document-role map.
+
+Its later progress section preserves subsequent status changes. This means the inventory is both a baseline artifact and an evolving progress surface; those roles should be distinguished when reconstructing chronology.
+
+### Pass 1 / Checkpoint 01
+
+The checkpoint identifies itself as a retrospective session-ingress record. It explicitly states that it preserves the observer position recoverable at the end of the session and does not claim that every item was recorded synchronously when first observed.
+
+It establishes two outputs that must not be conflated:
+
+- skill-level reconstruction: understanding how the skill organises work, decisions, evidence, experience and handoff;
+- methodological learning: observing what the reconstruction may reveal about skill development, organisation, composition and validation.
+
+It positions the observer differently from a domain specialist: the immediate task is to understand the skill's structure, operation, document relationships and language before assessing technical truth. It does not dismiss domain expertise.
+
+It defines Pass 1 as an initial structural and linguistic reconstruction, not a technical audit or redesign. It distinguishes a complete traversal pass from session checkpoints and document positions.
+
+It also preserves source/interpretation boundaries, unresolved questions, a bounded reconstruction-sufficiency rule, and cold-start success criteria.
+
+## First reconstructed movements
+
+The records support the following initial movement, with different evidentiary status:
+
+1. **Establish a source baseline.** Record repository identity, source revision, tree and file inventory before treating the material as a coherent system.
+2. **Establish an observer position.** State what is being investigated and distinguish skill reconstruction from technical validation and methodological learning.
+3. **Recover structure before rewriting.** Identify document roles, dependencies, inputs, outputs, decision logic, evidence and completion criteria.
+4. **Preserve terminology as a controlled distinction.** Build a glossary from contextual operational roles rather than natural-sounding equivalence.
+5. **Translate in dependency order.** Use the recovered structure to determine a workable order, while allowing source dependencies to change that order.
+6. **Keep translation and correction separate.** Preserve source ambiguities and technical questions rather than silently resolving them in English.
+7. **Review at more than one level.** Compare individual source/translation pairs, then consider whole-skill coherence and usability.
+8. **Preserve a reconstruction record separately from the functional translation.** The reconstruction record carries source provenance, observer understanding, relationships, ambiguities and boundaries; the translation is the English functional expression.
+9. **Make continuation reconstructable.** Preserve the current pass, checkpoint, document position, rationale for the next hop, reading dependencies and cold-start success conditions.
+
+This is a first reconstruction from the workflow declaration and checkpoint evidence. It is not yet a chronological account of when each movement first appeared or how each was modified.
+
+## Important distinctions
+
+- Declared workflow is not identical to enacted procedure.
+- A retrospective checkpoint is not contemporaneous evidence of every earlier decision.
+- Structural reconstruction is not technical correctness validation.
+- Translation is not correction.
+- Pass number is not session number or document position.
+- Skill-level reconstruction and methodological learning are distinct outputs, even when they inform one another.
+- A record's creation date is not necessarily the date of the observation it reconstructs.
+
+## Unresolved questions
+
+- Which of these movements were present from the beginning, and which emerged in response to specific failures or pressures?
+- How did the initial inventory and translation workflow change during actual use?
+- When did separate Chinese reconstruction records become necessary, and what failure or need prompted them?
+- When did Pass numbering, checkpoints and explicit cold-start criteria emerge?
+- How did the sufficiency boundary develop, and how does it differ from adequacy of a next hop and external completeness adjudication?
+- Which practices were inherited from the source skill, which were introduced by the translation work, and which arose through the AI-assisted reconstruction process?
+- What evidence exists outside the retrospective checkpoint records, especially in commit history and earlier session traces?
+
+## Next investigative movement
+
+Reconstruct the sequence across Pass 1 checkpoints and associated artifacts. For each transition, preserve:
+- the observer position before and after;
+- the source or event that prompted movement;
+- the distinction newly established;
+- the operational response;
+- what was preserved;
+- what remained unresolved;
+- whether the record is contemporaneous or retrospective.
+
+Do not yet classify these movements as universal invariants or publish a method specification.
